@@ -1,6 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
 
+// const airtable_api_key = process.env.AIRTABLE_API_KEY;
 const airtable_api_key = process.env.AIRTABLE_API_KEY;
 
 type Data = {
